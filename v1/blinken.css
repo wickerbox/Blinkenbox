@@ -1,0 +1,27 @@
+    .button-wrapper {margin: 0 auto; text-align:center; width:1200px;}
+.round-button-blue {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid blue;border-radius: 50%;color:#blue;text-align:center;text-decoration:none;background: blue;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-blue:hover {opacity: 0.8;}
+.round-button-red {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid red;border-radius: 50%;color:#red;text-align:center;text-decoration:none;background: red;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-red:hover {opacity: 0.8;}
+.round-button-green {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid green;border-radius: 50%;color:#green;text-align:center;text-decoration:none;background: green;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-green:hover {opacity: 0.8;}
+.round-button-yellow {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid yellow;border-radius: 50%;color:#yellow;text-align:center;text-decoration:none;background: yellow;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-yellow:hover {opacity: 0.8;}
+.round-button-purple {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid purple;border-radius: 50%;color:#purple;text-align:center;text-decoration:none;background: purple;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-purple:hover {opacity: 0.8;}
+.round-button-aqua {display:inline-block;width:100px;height:100px;line-height:50px;border: 2px solid aqua;border-radius: 50%;color:#aqua;text-align:center;text-decoration:none;background: aqua;box-shadow: 0 0 3px gray;font-size:20px;font-weight:bold;}
+.round-button-aqua:hover {opacity: 0.8;}
+.triangle-up-red:hover { opacity: 0.2}
+.triangle-up-blue:hover { opacity: 0.2}
+.triangle-up-green:hover { opacity: 0.2}
+.triangle-down-red:hover { opacity: 0.2}
+.triangle-down-blue:hover { opacity: 0.2}
+.triangle-down-green:hover { opacity: 0.2}
+.triangle-up-red { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid red; border-top: 0px;}
+.triangle-down-red { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 100px solid red; border-bottom: 0px;}
+.triangle-up-green { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid green; border-top: 0px;}
+.triangle-down-green { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 100px solid green; border-bottom: 0px;}
+.triangle-up-blue { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid blue;border-top: 0px; }
+.triangle-down-blue { background-color: #fff;width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 100px solid blue; border-bottom: 0px;}
+.wide {margin: 0 30px;}
+form {display:inline;}
