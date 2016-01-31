@@ -2327,11 +2327,10 @@ Single Cell LiPo</text>
 Wickerbox Electronics
 15-Sep-2015
 Released under the CERN OHL v1.2</text>
-<text x="180.34" y="53.34" size="1.778" layer="97">Boot from Flash: GPIO0 HIGH, GPIO2 HIGH, GPIO15 LOW
-PROG Boot from TX/RX: GPIO0 LOW, GPIO2 HIGH, GPIO15 LOW
+<text x="187.96" y="53.34" size="1.778" layer="97">Boot from Flash: GPIO0 HIGH, GPIO2 HIGH, GPIO15 LOW
+Boot from TX/RX: GPIO0 LOW, GPIO2 HIGH, GPIO15 LOW
 Boot from SD: GPIO15 HIGH, GPIO2/GPIO0 DON'T CARE</text>
 <text x="256.54" y="20.32" size="1.778" layer="94" align="center">X</text>
-<text x="40.64" y="50.8" size="1.778" layer="91">&gt;DRAWING_NAME</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="132.08" y="111.76"/>

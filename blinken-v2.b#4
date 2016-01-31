@@ -151,7 +151,6 @@
 <wire x1="21.316" y1="26.594" x2="0" y2="26.594" width="0" layer="20"/>
 <wire x1="0" y1="26.594" x2="0" y2="0" width="0" layer="20"/>
 <text x="20.32" y="19.05" size="0.762" layer="22" font="vector" ratio="15" rot="MR0">Blinkenbox v2</text>
-<text x="17.018" y="0.254" size="1.778" layer="26" rot="MR0">&gt;DRAWING_NAME</text>
 </plain>
 <libraries>
 <library name="linear">
@@ -480,7 +479,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-<clearance class="0" value="0.1778"/>
 </class>
 </classes>
 <designrules name="oshpark-2layer">

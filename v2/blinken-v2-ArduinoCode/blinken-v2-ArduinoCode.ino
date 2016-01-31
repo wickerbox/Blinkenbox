@@ -1,3 +1,4 @@
+#include <Adafruit_NeoPixel.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
@@ -8,6 +9,11 @@
 #define greenPin 14
 #define bluePin 12
 #define MAXADC 1023
+#define neoPin 20
+#define numPix 4
+
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numPix, neoPin, NEO_GRB + NEO_KHZ800);
+int delayval = 500;
 
 int value = 0;
 int i;
@@ -44,15 +50,12 @@ const char* html = "<html>\
 </body>\
 </html>";
 
-//const char* ssid     = "OSH Park - SweetB";
-//const char* ssid     = "Free Wireless from OSH Park";
-const char* ssid       = "@laen";
 //const char* ssid     = "HOME-3842";
 //const char* password = "B18DF2225F96F92C";
-//const char* password = "25yearsofcoffee";
-const char* password   = "";
+const char* ssid     = "Birdhouse";
+const char* password = "Blondy123";
 ESP8266WebServer server(80);
- 
+
 const char* host = "www.adafruit.com";
    
 void handle_root() {
@@ -86,16 +89,21 @@ void setup() {
   server.begin();
   Serial.println("HTTP server started");
   
-  pinMode(greenPin, OUTPUT);
-  pinMode(bluePin, OUTPUT);  
-  pinMode(redPin, OUTPUT);  
-
-
-  setColor(MAXADC,0,0);
+  pixels.begin();
 }   
  
 void loop() {
   server.handleClient();
+
+  for(int i=0;i<numPix;i++){
+
+    // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
+    pixels.setPixelColor(i, pixels.Color(0,150,0)); // Moderately bright green color.
+
+    pixels.show(); // This sends the updated pixel color to the hardware.
+
+    delay(delayval); // Delay for a period of time (in milliseconds).
+  }
 }
 
 void upRed(void) {
@@ -215,13 +223,6 @@ void adafruit_wifi_test() {
   }
   
   Serial.println();
-  Serial.println("closing connection");
-}
-
-void blinken() {
-  digitalWrite(0, HIGH);
-  delay(500);
-  digitalWrite(0, LOW);
-  delay(500);
-}
-
+  //Serial.println("closing connection");
+  
+  }

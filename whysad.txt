@@ -1,0 +1,25 @@
+adafruit
+
+txd		3.3		
+rxd		3.3		
+gpio5	0		
+gpio4	0		
+gpio0	1.7		
+gpio2 	3.3		
+gpio15	0		
+vcc		3.3		
+
+
+rst		?		1.1
+adc		0.3		.26
+ch_pd	3.3		1.0
+gpio16	0		
+gpio14	0		
+gpio12	0		
+gpio13	3.3		
+vcc		5		
+vbat 	4.8		
+gnd		0		
+
+
+ch_pd vs en!!??
